@@ -1,0 +1,133 @@
+:root {
+  --primary-color: #ffc500;
+  --secondary-color: #eaae00;
+  --third-color: #00c0cc;
+  --third-color-hover: #02acb8;
+  --dark-color: #302f2f;
+}
+
+/* 
+  - Fonte Roboto. 
+  - Pode utilizar Bootstrap. 
+  - Empregar media-queries para no mínimo a versão mobile. 
+  - Dois arquivos. (Um com a página inicial, o segundo com o formulário (+ header e footer))
+  - 
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+.header{
+  background-color: var(--secondary-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px;
+  text-transform: uppercase;
+}
+
+.header nav{
+  display: flex;
+  gap: 40px;
+}
+
+
+.header nav a{
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.main{
+  display: flex;
+  background-color: var(--primary-color);
+  width: 100%;
+  padding: 30px;
+  height: 700px;
+
+}
+
+.main-titulo{
+  font-size: 30px;
+  font-weight: bold;
+  width: 50%;
+  text-align: left;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: white;
+  gap: 10px;
+}
+
+.main-titulo{
+  width: 50%;
+  margin-left: 100px;
+}
+
+.main-titulo p{
+  font-size: 20px;
+  font-weight: normal;
+}
+
+.main-img{
+  width: 50%;
+  position: relative;
+}
+
+.img-principal{
+  position: absolute;
+}
+
+.service{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 30px;
+  gap: 30px;
+  background-color: var(--primary-color);
+  color: white;
+}
+
+
+.service h1 {
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.service p{
+  font-size: 20px;
+  text-align: center;
+  max-width: 1400px;
+}
+
+.cards{
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+
+.card{
+  width: 400px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.card h2{
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.card p{
+  font-size: 18px;
+}
