@@ -22,7 +22,7 @@
   list-style: none;
 }
 
-.header{
+.header {
   background-color: var(--secondary-color);
   display: flex;
   justify-content: space-between;
@@ -31,19 +31,19 @@
   text-transform: uppercase;
 }
 
-.header nav{
+.header nav {
   display: flex;
   gap: 40px;
 }
 
 
-.header nav a{
+.header nav a {
   color: white;
   font-weight: 600;
   font-size: 20px;
 }
 
-.main{
+.main {
   display: flex;
   background-color: var(--primary-color);
   width: 100%;
@@ -52,7 +52,7 @@
 
 }
 
-.main-titulo{
+.main-titulo {
   font-size: 30px;
   font-weight: bold;
   width: 50%;
@@ -65,17 +65,17 @@
   gap: 10px;
 }
 
-.main-titulo{
+.main-titulo {
   width: 50%;
   margin-left: 100px;
 }
 
-.main-titulo p{
+.main-titulo p {
   font-size: 20px;
   font-weight: normal;
 }
 
-.main-button1{
+.main-button1 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -89,7 +89,7 @@
   height: 50px;
 }
 
-.main-button2{
+.main-button2 {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -104,16 +104,16 @@
   margin-right: 10px;
 }
 
-.main-img{
+.main-img {
   width: 50%;
   position: relative;
 }
 
-.img-principal{
+.img-principal {
   position: absolute;
 }
 
-.service{
+.service {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -130,13 +130,13 @@
   text-transform: uppercase;
 }
 
-.service p{
+.service p {
   font-size: 20px;
   text-align: center;
   max-width: 1400px;
 }
 
-.cards{
+.cards {
   padding: 30px;
   display: flex;
   justify-content: center;
@@ -144,7 +144,7 @@
   align-items: center;
 }
 
-.card{
+.card {
   width: 400px;
   text-align: center;
   display: flex;
@@ -152,11 +152,34 @@
   gap: 30px;
 }
 
-.card h2{
+.card h2 {
   font-weight: bold;
   font-size: 30px;
 }
 
-.card p{
+.card p {
   font-size: 18px;
+}
+
+.rodape {
+
+  width: 100%;
+  background-color: var(--dark-color);
+  padding: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+  color: white;
+
+}
+
+.footer-col1 .footer-col2 .footer-col3 {
+
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+
 }
